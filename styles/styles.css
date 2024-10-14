@@ -1,0 +1,261 @@
+body {
+    margin: 0px;
+    background-color: rgb(97, 112, 185);
+    color: black;
+
+    font-size: 17px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif
+}
+
+ul{
+    padding: 0px;
+}
+
+header {
+    width: 100%;
+}
+
+/* Index page - Home */
+
+/* Home page's hero image */
+.hero {
+    background-image: url('/images/computer.jpg');
+    background-size: cover;
+    background-position: center;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    height: 350px;
+}
+
+.hero h2{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 50px;
+    color: white;
+}
+
+/* Navigation for different pages and top heading banner on all the pages */
+
+.banner {
+    background-color: rgb(97, 112, 185);
+    font-size: 22px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    height: 80px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.navigation {
+    background-color: rgba(0, 0, 0, 0.607);
+    font-size: 27px;
+    font-family: fantasy;
+
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.navigation ul {
+    list-style-type: none;
+    display: flex;
+}
+
+.navigation a {
+    background-color: rgb(97, 112, 185);
+    color: rgb(179, 255, 102);
+    text-decoration: none;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 1.0);
+    display: block;
+
+    border-radius: 20px;
+    padding: 0px 50px;
+    line-height: 40px;
+    margin: 40px;
+
+    transition: background-color 0.5s ease;
+    transition: color 0.5s ease;
+    transition: font-size 0.5s ease;
+}
+
+/* Navigation transitions when hovered on*/
+.navigation a:hover{
+    color: rgb(97, 112, 185);
+    background-color: white;
+    font-size: 35px;
+}
+
+/* First text and image on the website and myself */
+.about ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+    margin: 80px 180px;
+    list-style-type: none;
+}
+
+.about img{
+    padding-left: 80px;
+}
+
+/* Heading for my achievements */
+h2{
+    text-align: center;
+
+    font-size: 40px;
+    margin: 0px;
+}
+
+.achievements ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    list-style-type: none;
+    margin: 80px 180px;
+}
+
+.achievements img{
+    padding: 0px 40px;
+}
+
+.achievements a{
+    color: rgb(179, 255, 102);
+    font-size: 20px;
+    padding-left: 40px;
+}
+
+/* Second page- Digital Projects */
+h3{
+    text-align: center;
+
+    font-size: 40px;
+    margin-top: 80px;
+}
+
+/* Assessment quiz and Hangman game coded in python */
+.quiz-game ul{
+    display: flex;
+    justify-content: center;
+    align-items: last baseline;
+
+    list-style-type: none;
+    margin: 80px 180px;
+}
+
+.quiz-game img{
+    padding-right: 80px;
+}
+
+.quiz-game a{
+    color: rgb(179, 255, 102);
+}
+
+/* Cooking blog website design link and information */ 
+.blog {
+    display: flex;
+    justify-content: center;
+    align-items: last baseline;
+    text-align: end;
+
+    margin: 80px 180px;
+}
+
+.blog ul{
+    list-style-type: none;
+}
+
+.blog ul a{
+    color: rgb(179, 255, 102);
+    padding-left: 80px;
+}
+
+.blog img{
+    padding: 17px 0px 0px 80px;
+}
+
+/* Third page - Achievements page */
+
+/* Hero image below the navigation */ 
+.top-image {
+    background-image: url('/images/gallery.jpg');
+    background-size: cover;
+    background-position: center;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    height: 300px;
+}
+
+/* Painting subject information and images */ 
+.art ul{ 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    list-style-type: none;
+    margin: 80px 180px;
+}
+
+.art img{
+    padding-right: 80px;
+}
+
+/* Specific artworks to show user */
+.artwork {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    margin: 80px 180px;
+}
+
+.artwork ul{
+    list-style-type: none;
+}
+
+.margin-art img{
+    margin-right: 80px;
+}
+
+.artwork img {
+    box-shadow:  0px 0px 20px rgba(0, 0, 0, 0.8);
+}
+
+
+/* Brain bee information */
+.brainbee ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    list-style-type: none;
+    margin: 80px 180px;
+}
+
+.brainbee img{
+    padding-right: 80px;
+}
+
+/*My Contact at the bottom of every page*/
+.contact {
+    background-color: rgb(86, 86, 86);
+    color: white;
+    height: 90px;
+}
+
+.contact ul {
+    list-style-type: none;
+}
+
+.contact li{
+    padding: 10px;
+}
